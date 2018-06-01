@@ -1,12 +1,11 @@
 require 'to_words'
 
-keep_on = true
-while keep_on == true
+while true
+  
   print "Please enter a new number (integer), or 'q' to quit: "
   num = gets.strip
   puts "\n"
   if num == 'q'
-    keep_on = true
     exit
   end
 
@@ -16,3 +15,4 @@ while keep_on == true
   end
 
   puts "Four is the magic number."
+end
